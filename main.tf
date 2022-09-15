@@ -61,7 +61,7 @@ resource "aws_s3_bucket" "bucket" {
     object_lock_enabled = "Enabled"
   }
     tags = {
-      Name = "S3 Remote Terraform State Store"
+      Name = "S3  Remote Terraform State Store"
     }
 }
 
