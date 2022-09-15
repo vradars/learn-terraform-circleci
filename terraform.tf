@@ -1,12 +1,10 @@
 terraform {
-/*
   backend "s3" {
     bucket = "terraform-training-circleci-terraform-state-bucket"
     key    = "terraform.tfstate"
     region = "us-east-1"
     dynamodb_table = "terraform-training-circleci-terraform-lock-table"
   }
-*/
 
   required_providers {
     aws = {
