@@ -44,6 +44,7 @@ resource "aws_s3_bucket_website_configuration" "terramino" {
   }
 }
 
+/*
 resource "aws_s3_bucket" "bucket" {
   bucket = "${var.app}-terraform-state-bucket"
   versioning {
@@ -77,3 +78,4 @@ resource "aws_dynamodb_table" "terraform_lock" {
     "Name" = "State- Lock Table for ${var.app}"
   }
 }
+*/
